@@ -40,7 +40,7 @@ function App() {
     setUsers(data);
     setLoading(false);
   };
-
+console.log("hello")
   const addUser = () => {
     // BUG 9: Direct state mutation in React
     users.push({ id: Math.random(), name: "Bob" });
